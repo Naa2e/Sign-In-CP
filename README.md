@@ -3,8 +3,8 @@ Sign-In CRUD Capstone Project
 
 ###Acceptance Criteria
 
-+Admin will be able to add and delete teachers for Sign-In.
-+Admin will be able to add, update and delete group classes for Sign-In.
+1. Admin will be able to add and delete teachers for Sign-In.
+2. Admin will be able to add, update and delete group classes for Sign-In.
 *Admin will be able to add, update and delete socials for Sign-In.
 
 *Student will be able to sign in for lessons, classes and socials/Student will be able to enter name into Sign-In
