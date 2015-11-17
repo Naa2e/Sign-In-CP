@@ -1,7 +1,7 @@
 # Sign-In-CP
 Sign-In CRUD Capstone Project
 
-Acceptance Criteria
+##Acceptance Criteria
 Admin will be able to add and delete teachers for Sign-In.
 Admin will be able to add, update and delete group classes for Sign-In.
 Admin will be able to add, update and delete socials for Sign-In.
