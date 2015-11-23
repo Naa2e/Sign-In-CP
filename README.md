@@ -5,7 +5,8 @@ Sign-In CRUD Capstone Project
 
 1. Admin will be able to add and delete teachers for Sign-In.
 2. Admin will be able to add, update and delete group classes for Sign-In.
-3. Admin will be able to add, update and delete socials for Sign-In.
+
+-3. Admin will be able to add, update and delete socials for Sign-In.-
 4. Student will be able to sign in for lessons, classes --and socials--/Student will be able to enter name into Sign-In
 5. Student will be able to select teacher name for private lesson.
 6. Student will be able to select Intro Special 1, Intro Special 2 or Regular rate for private lesson.
