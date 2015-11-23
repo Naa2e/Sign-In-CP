@@ -14,9 +14,13 @@ Sign-In CRUD Capstone Project
 9. Student will be able to select rate of single class($15) or class passport($120)
 10. If student selects class passport student will be asked to enter __/10.
 11. Admin will be able to total number of group class attendees by rate.
+
 --12. Student will be able to select social by the day.--
+
 --13. Student will be able to select rate of single ($17) or couple ($30).--
+
 14. Admin will be able to see amount of money made for the studio by day, week and month. 
 15. Admin will be able to calculate amount of money owed for floor rent by instructor per day, week and month.
 16. Admin will be able to calculate amount of money made for the studio for each group class.
+
 --17. Admin will be able to calculate amount of money made for the studio for each social.--
