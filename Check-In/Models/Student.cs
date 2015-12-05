@@ -7,5 +7,7 @@ namespace Check_In.Models
 {
     public class Student
     {
+        public string Name { get; set; }
+        public Teacher { }
     }
 }
