@@ -7,7 +7,14 @@ namespace Check_In.Models
 {
     public class Payment
     {
-        public int PayAmt { get; set;}
+        public int PayAmt { get; set; }
         public int PayType { get; set; }
+
+        public virtual Lesson Lesson { get; set; }
+
+        public Payment()
+        {
+            Lesson = new Lesson();
+        }
     }
 }

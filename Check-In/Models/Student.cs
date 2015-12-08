@@ -8,6 +8,13 @@ namespace Check_In.Models
     public class Student
     {
         public string Name { get; set; }
-        public Teacher { }
+
+        public virtual Lesson Lesson { get; set; }
+        //public virtual List<Lesson> Courses { get; set; } //Why not this?
+
+        public Student()
+        {
+            Lesson = new Lesson();
+        }
     }
 }
