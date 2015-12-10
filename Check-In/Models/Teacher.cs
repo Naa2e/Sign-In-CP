@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Data.Entity;
 
 namespace Check_In.Models
 {
     public class Teacher
     {
+        [Key]
         public int TeacherId { get; set; }
         public string Name { get; set; }
         public int NumberOfStudents { get; set; }

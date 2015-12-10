@@ -23,28 +23,41 @@ namespace Check_In.Models
             TeacherContext = _context;
         }
 
-        public bool AddClass(int _teacher_id, Teacher _list)
-        {
-            var query = from b in TeacherContext.Teachers where b.TeacherId == _teacher_id select b;
-            Teacher found_teacher = null;
+        public int AddNewTeacherID() { return 0; } 
+        public string AddNewTeacherName() { return null; }
+        public string EditTeacherName() { return null; }
+        public string DeleteTeacherID() { return null; }//will this delete the entire entity if its the key?
+        public int RetrieveNumOfStudents() { return 0; }
+        public string AddNewStudent() { return null; }
+        public string EditStudentName() { return null; }
+        public string DeleteStudent() { return null; }
+        public string MergeStudent() { return null; } //I'm thinking this will be needed if a student enters their name differently. 
+        //I assume its case sensitive so merge Nicole Ahima with nicole ahima, or like SuNtRuSt I could add toLowerCase? 
+        //But this won't account for Nicole Ahima vs Nicole A (laziness)
+        //Now that I'm thinking of it I could make a seperate text box for last name that requires a minimum of 2 letters and just throw it all to lower case
+        //Nice talk rubber duck
+        public int AddNewLessonID() { return 0; }
+        public string AddNewLessonTitle() { return null; }
+        public string EditLessonTitle() { return null; }
+        public string DeleteLessonTitle() { return null; }
+        public string AddClassType() { return null; }
+        public string EditClassType() { return null; }
+        public string DeleteClassType() { return null; }
+        public string AddAcceptedPayTypes() { return null; }
+        public string EditAcceptedPayTypes() { return null; }
+        public string DeleteAcceptedPayTypes() { return null; }
+        public int RetrieveNumOfPayments() { return 0; }
+        public string AddDayOfWeek() { return null; }
+        public string EditDayOfWeek() { return null; }
+        public string DeleteDayOfWeek() { return null; }
+        public string AddPaymentType() { return null; }
+        public string EditPaymentType() { return null; }
+        public string DeletePaymentType() { return null; }
+        public int AddPaymentAmt() { return 0; }
+        public int EditPaymentAmt() { return 0; }
+        public int DeletePaymentAmt() { return 0; }
 
-            bool result = true;
-            try
-            {
-                found_teacher = query.Single<Teacher>();
-                found_teacher.L.Add(Lesson);
-                TeacherContext.SaveChanges();
-            }
 
-            catch (InvalidOperationException)
-            {
-                result = false;
-            }
-
-            return result;
-        }
-
-        
     }
 
 }
