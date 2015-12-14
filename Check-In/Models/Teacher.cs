@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Data.Entity;
+using System.ComponentModel.DataAnnotations;
 
 namespace Check_In.Models
 {
@@ -11,7 +12,6 @@ namespace Check_In.Models
         [Key]
         public int TeacherId { get; set; }
         public string Name { get; set; }
-        public int NumberOfStudents { get; set; }
 
         public virtual List<Lesson> Schedule { get; set; }
 

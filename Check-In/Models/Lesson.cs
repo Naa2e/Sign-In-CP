@@ -8,7 +8,7 @@ namespace Check_In.Models
     public class Lesson
     {
         public int LessonId { get; }
-        public int PayType { get; set; }
+        public int AcceptedPayType { get; set; }
         public int ClassType { get; set; }
         public int NumOfPayments { get; set; }
         public string Title { get; set; }
