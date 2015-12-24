@@ -1,4 +1,3 @@
-C:\Users\Naa2e\Documents\GitHub\Check-In\Check-In\obj\Debug\Check-In.csprojResolveAssemblyReference.cache
 C:\Users\Naa2e\Documents\GitHub\Check-In\Check-In\bin\roslyn\csc.exe
 C:\Users\Naa2e\Documents\GitHub\Check-In\Check-In\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\Users\Naa2e\Documents\GitHub\Check-In\Check-In\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -67,3 +66,4 @@ C:\Users\Naa2e\Documents\GitHub\Check-In\Check-In\bin\Microsoft.Owin.Security.Tw
 C:\Users\Naa2e\Documents\GitHub\Check-In\Check-In\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Naa2e\Documents\GitHub\Check-In\Check-In\obj\Debug\Check-In.dll
 C:\Users\Naa2e\Documents\GitHub\Check-In\Check-In\obj\Debug\Check-In.pdb
+C:\Users\Naa2e\Documents\GitHub\Check-In\Check-In\obj\Debug\Check-In.csprojResolveAssemblyReference.cache

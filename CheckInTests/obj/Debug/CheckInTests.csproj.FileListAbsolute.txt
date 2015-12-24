@@ -13,7 +13,6 @@ C:\Users\Naa2e\Documents\GitHub\Check-In\CheckInTests\bin\Debug\roslyn\VBCSCompi
 C:\Users\Naa2e\Documents\GitHub\Check-In\CheckInTests\bin\Debug\CheckInTests.dll
 C:\Users\Naa2e\Documents\GitHub\Check-In\CheckInTests\bin\Debug\CheckInTests.pdb
 C:\Users\Naa2e\Documents\GitHub\Check-In\CheckInTests\bin\Debug\Check-In.dll
-C:\Users\Naa2e\Documents\GitHub\Check-In\CheckInTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\Users\Naa2e\Documents\GitHub\Check-In\CheckInTests\bin\Debug\Microsoft.Owin.dll
 C:\Users\Naa2e\Documents\GitHub\Check-In\CheckInTests\bin\Debug\System.Web.Optimization.dll
 C:\Users\Naa2e\Documents\GitHub\Check-In\CheckInTests\bin\Debug\System.Web.Mvc.dll
@@ -48,3 +47,8 @@ C:\Users\Naa2e\Documents\GitHub\Check-In\CheckInTests\bin\Debug\System.Web.WebPa
 C:\Users\Naa2e\Documents\GitHub\Check-In\CheckInTests\obj\Debug\CheckInTests.csprojResolveAssemblyReference.cache
 C:\Users\Naa2e\Documents\GitHub\Check-In\CheckInTests\obj\Debug\CheckInTests.dll
 C:\Users\Naa2e\Documents\GitHub\Check-In\CheckInTests\obj\Debug\CheckInTests.pdb
+C:\Users\Naa2e\Documents\GitHub\Check-In\CheckInTests\bin\Debug\CheckInTests.dll.config
+C:\Users\Naa2e\Documents\GitHub\Check-In\CheckInTests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Naa2e\Documents\GitHub\Check-In\CheckInTests\bin\Debug\Moq.dll
+C:\Users\Naa2e\Documents\GitHub\Check-In\CheckInTests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Naa2e\Documents\GitHub\Check-In\CheckInTests\bin\Debug\Moq.xml
