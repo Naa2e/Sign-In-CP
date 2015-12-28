@@ -27,7 +27,8 @@ namespace CheckInTests
         public void LessonRepoEnsureICanCreateNewLesson() 
         {
             //Arrange - Setup
-            List<Lesson> my_list = new List<Lesson>(); 
+            List<Lesson> my_list = new List<Lesson>();
+            List<Teacher> my_teacherlist = new List<Teacher>();
             Mock<CContext> mock_context = new Mock<CContext>(); 
             Mock<DbSet<Teacher>> mock_teacher = new Mock<DbSet<Teacher>>(); 
             Mock<DbSet<Student>> mock_student = new Mock<DbSet<Student>>();
@@ -43,14 +44,24 @@ namespace CheckInTests
 
             mock_lesson.Setup(m => m.Add(It.IsAny<Lesson>())).Callback((Lesson b) => my_list.Add(b));
 
-            mock_context.Setup(m => m.Lessons).Returns(mock_lesson.Object); 
+            mock_context.Setup(m => m.Lessons).Returns(mock_lesson.Object);
+
+            var tdata = my_teacherlist.AsQueryable();
+            mock_teacher.As<IQueryable<Teacher>>().Setup(m => m.Provider).Returns(tdata.Provider);
+            mock_teacher.As<IQueryable<Teacher>>().Setup(m => m.GetEnumerator()).Returns(tdata.GetEnumerator());
+            mock_teacher.As<IQueryable<Teacher>>().Setup(m => m.ElementType).Returns(tdata.ElementType);
+            mock_teacher.As<IQueryable<Teacher>>().Setup(m => m.Expression).Returns(tdata.Expression);
+
+            mock_teacher.Setup(m => m.Add(It.IsAny<Teacher>())).Callback((Teacher b) => my_teacherlist.Add(b));
+
+            mock_context.Setup(m => m.Teachers).Returns(mock_teacher.Object);
 
             LessonRepo Repo = new LessonRepo(mock_context.Object);
-            Lesson Schedule = new Lesson { LessonId = 1 };
-
+            Lesson lesson = new Lesson { LessonId = 1 };
+            Teacher teacher = new Teacher { Name = "Shalene" }; 
 
             //Act - Call method that is being tested
-            int Success = Repo.AddNewLesson(1, Schedule); 
+            bool Success = Repo.AddNewLesson(1, lesson); 
             
             //Assert - check result
 

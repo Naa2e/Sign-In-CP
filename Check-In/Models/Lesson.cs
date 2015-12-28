@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Data.Entity;
+using System.ComponentModel.DataAnnotations;
 
 namespace Check_In.Models
 {
     public class Lesson
     {
+        [Key]
         public int LessonId { get; set; }
         public int AcceptedPayType { get; set; }
         public int ClassType { get; set; }

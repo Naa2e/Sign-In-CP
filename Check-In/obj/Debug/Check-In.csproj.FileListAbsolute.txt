@@ -67,3 +67,5 @@ C:\Users\Naa2e\Documents\GitHub\Check-In\Check-In\bin\Microsoft.Owin.Security.Mi
 C:\Users\Naa2e\Documents\GitHub\Check-In\Check-In\obj\Debug\Check-In.dll
 C:\Users\Naa2e\Documents\GitHub\Check-In\Check-In\obj\Debug\Check-In.pdb
 C:\Users\Naa2e\Documents\GitHub\Check-In\Check-In\obj\Debug\Check-In.csprojResolveAssemblyReference.cache
+C:\Users\Naa2e\Documents\GitHub\Check-In\Check-In\obj\Debug\Check_In.Migrations.InitialCreate.resources
+C:\Users\Naa2e\Documents\GitHub\Check-In\Check-In\obj\Debug\Check-In.csproj.GenerateResource.Cache
