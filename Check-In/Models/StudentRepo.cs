@@ -21,21 +21,27 @@ namespace Check_In.Models
             StudentContext = _context;
         }
 
-        public string AddNewStudent(Student _student)
+        public bool AddNewStudent(int _lesson_id, Student _student)
         {
-            string result = null ;
+
+            var query = from b in LessonContext.Lessons where b.LessonId == _lesson_id select b;
+            Student found_lesson = null;
+
+            bool result = true;
+
             try
             {
+                found_lesson = query.Single<Lesson>();
                 StudentContext.Students.Add(_student);
                 StudentContext.SaveChanges();
             }
             catch (InvalidOperationException)
             {
-                result = null;
+                result = false;
             }
             catch (ArgumentNullException)
             {
-                result = null;
+                result = false;
             }
             return result;
         }

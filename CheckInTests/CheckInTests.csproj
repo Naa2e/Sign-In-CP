@@ -68,12 +68,12 @@
     <Compile Include="TeacherTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TeacherRepoTest.cs" />
-    <Compile Include="LessonTest.cs" />
     <Compile Include="LessonRepoTest.cs" />
     <Compile Include="StudentRepoTest.cs" />
     <Compile Include="StudentTest.cs" />
     <Compile Include="PaymentTest.cs" />
     <Compile Include="PaymentTestRepo.cs" />
+    <Compile Include="RepositoryTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Check-In\Check-In.csproj">
