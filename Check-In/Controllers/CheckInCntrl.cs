@@ -12,15 +12,15 @@ namespace Check_In.Controllers
 {
     public class CheckInCntrl : Controller
     {
-        private TeacherRepo repository;
+        private Repository repository;
         //private Mock<>
 
         public CheckInCntrl()
         {
-            repository = new TeacherRepo();
+            repository = new Repository();
         }
 
-        public CheckInCntrl(TeacherRepo _repo)
+        public CheckInCntrl(Repository _repo)
         {
             repository = _repo;
         }
